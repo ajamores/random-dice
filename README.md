@@ -1,6 +1,14 @@
 # Dice Simulator
 This is a dice game that is implemented using arrays. There are two classes, one to represent a die with an arbitrary number of sides, and another to represent a collection of dice. The purpose of the game is to roll the entire collection repeatedly and use an array to build a histogram of the results.
 
+It demonstrates the use of several fundamental Java concepts, such as object-oriented programming, inheritance, encapsulation, and abstraction.
+The project uses a model and view orientation to separate the application: the model (Dice and DiceCollection classes), and the view (DiceMainView class).
+The model represents the data and logic, the view provides the user interface which handles user input and updates the model and view accordingly.
+The project also utilizes arrays and loops to create and manipulate collections of objects.
+The Math.random() method is used to generate random values for simulating dice rolls.
+A histogram of the resulting data is constructed to visualize the frequency of different outcomes.
+Overall, this project provides a practical example of how to implement essential Java programming concepts and design patterns in a real-world application.
+
 **Die Class**
 
 The Die class represents a die with an arbitrary number of sides. When a die is created, the number of sides is specified and cannot be changed. The Die object can report its number of sides, can report the side that is currently showing, and can be rolled. When a die is rolled, it generates and stores a new integer from 1 to n, where n is its number of sides. It has a toString() method that reports the number of sides and the number that is currently showing.
