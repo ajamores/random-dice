@@ -31,3 +31,9 @@ The DiceMainView class is the main class that contains the user interface. It as
     - Enter 2 to roll the dice 100,000 times.
     - Enter 3 to quit the game.
 - After each roll, the results will be displayed, including the histogram of the results.
+
+**Images**
+
+![image1](https://i.imgur.com/xKB8fHB.png)
+![image2](https://i.imgur.com/vGnyzWD.png)
+![image2](https://i.imgur.com/ahd0WzI.png)
